@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form</title>
+    <link rel="icon" href="WhatsApp Image 2023-06-13 at 20.29.53.jpeg">
+
+    <style>
+        header{
+            background-color: red;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article{
+            padding: 20px;
+            width: 100%;
+            background-color: red;
+        }
+        footer{
+            background-color: red;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        nav{
+            background-color: red;
+            padding: 10px;
+        }
+        nav ul{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Edit Karyawan</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="./karyawan/index.html">karyawan</a></li>
+            <li><a href="">bagian</a></li>
+            <li><a href="">penggajian</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Edit karyawan</legend>
+                <p>
+                    <label for="">NIK :</label>
+                    <input type="number" value="0001">
+                </p>
+                <p>
+                    <label for="">NAMA :</label>
+                    <input type="text" value="Sultani">
+                </p>                
+                <p>
+                    <label for="">TANGGAL MULAI :</label>
+                    <input type="date" value="2023-10-06">
+                </p>                                
+                <p>
+                    <label for="">GAJI POKOK :</label>
+                    <input type="number" value="1000000">
+                </p>                                
+                <p>
+                    <label for="">STATUS KARYAWAN :</label>
+                    <select name="" id="">
+                        <option value="">-----</option>
+                        <option value="TETAP">TETAP</option>
+                        <option value="KONTRAK">KONTRAK</option>
+                        <option value="MAGANG">MAGANG</option>
+                    </select>
+                </p>
+                <p>
+                    <button style="background-color: blue; color: white;">simpan</button>
+                </p>                                
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>Powered by Programmer <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+</html>

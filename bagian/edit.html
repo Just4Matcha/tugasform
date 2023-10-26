@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form</title>
+    <link rel="icon" href="02.jpeg">
+
+    <style>
+        header{
+            background-color: gray;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article{
+            padding: 20px;
+            width: 100%;
+            background-color: blue;
+        }
+        footer{
+            background-color: red;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        nav{
+            background-color: violet;
+            padding: 10px;
+        }
+        nav ul{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>karyawan</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="">karyawan</a></li>
+            <li><a href="">bagian</a></li>
+            <li><a href="">penggajian</a></li>
+        </ul>
+    </nav>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Edit Bagian</legend>
+                <p>
+                    <label for="">ID :</label>
+                    <input type="number" value="1">
+                </p>                              
+                <p>
+                    <label for="">NAMA BAGIAN :</label>
+                    <select name="" id="">
+                        <option value="">-----</option>
+                        <option value="">HRD</option>
+                        <option value="KONTRAK">MARKETING</option>
+                        <option value="MAGANG">MANAGER</option>
+                    </select>
+                </p>
+                <p>
+                    <button style="background-color: blue; color: white;">simpan</button>
+                </p>                                
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>Powered by Programmer <time datetime="2023">2023</time></p>
+    </footer>
+</body>
+</html>
